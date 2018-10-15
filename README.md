@@ -1,7 +1,6 @@
 # updatable-log
 > pretty logger with the ability to update lines in place
 
-
 ## Example
 ```js
 const log = require('updatable-log');
@@ -9,7 +8,7 @@ const chalk = require('chalk');
 const delay = require('delay');
 
 async function exampleApp({ quiet }) {
-  // ignore logging, except from log.important() and log.error()
+  // ignore everything except log.important() and log.error()
   log.quiet = quiet;
 
   log.info(chalk.green('E X A M P L E - A P P'));
