@@ -1,7 +1,7 @@
 {
   "name": "updatable-log",
   "version": "0.0.0",
-  "description": "updatable logger",
+  "description": "pretty logger with the ability to update lines in place",
   "main": "index.js",
   "scripts": {
     "example": "node example",
